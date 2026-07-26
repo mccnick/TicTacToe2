@@ -113,7 +113,7 @@ function HomePage() {
           <div className="badge">
             <strong>Content Creator from:</strong>
             <span>Alberta, Canada</span>
-            <span>(GMT-6 Mountain Time)</span>
+            <span>(Mountain Time)</span>
           </div>
         </div>
       </header>
