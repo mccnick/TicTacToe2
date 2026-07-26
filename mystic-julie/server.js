@@ -110,6 +110,8 @@ app.get('/api/twitch-status', async (req, res) => {
   }
 })
 
-app.listen(PORT, () => {
-  console.log(`Twitch proxy ready at http://localhost:${PORT}`)
-})
+//app.listen(PORT, () => {
+//  console.log(`Twitch proxy ready at http://localhost:${PORT}`)
+//})
+
+export default app;
