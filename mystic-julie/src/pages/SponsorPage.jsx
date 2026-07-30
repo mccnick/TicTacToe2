@@ -1,12 +1,13 @@
 import '../App.css'
 import alfricEdenImage from '../assets/alfric-eden.jpeg'
+import amesports from '../assets/Aftermath-Esports.jpeg'
 
 function SponsorPage() {
   return (
     <div className="page-shell">
       <section className="panel sponsor-panel sponsor-panel-grid">
         <div className="sponsor-panel-copy">
-          <h2>Check out my sponsors!</h2>
+          <h2>Aelfric Eden</h2>
           <p>
             Support my channel on Aelfric Eden and use code <strong>"myst25"</strong> at checkout.
           </p>
@@ -24,6 +25,30 @@ function SponsorPage() {
           <img
             className="sponsor-image"
             src={alfricEdenImage}
+            alt="Aelfric Eden discount code"
+          />
+        </div>
+      </section>
+      <section className="panel sponsor-panel sponsor-panel-grid">
+        <div className="sponsor-panel-copy">
+          <h2>Aftermath Esports</h2>
+          <p>
+            I am a content creator for Aftermath Esports, please check them out below!
+          </p>
+          <a
+            className="btn btn-primary"
+            href="https://www.aftermathesports.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Aftermath Esports
+          </a>
+        </div>
+
+        <div className="sponsor-panel-visual">
+          <img
+            className="sponsor-image"
+            src={amesports}
             alt="Aelfric Eden discount code"
           />
         </div>

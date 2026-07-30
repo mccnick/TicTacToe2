@@ -73,7 +73,7 @@ function HomePage() {
     <div className="page-shell">
       <header id="home" className="hero-card">
         <div className="hero-copy">
-          <p className="eyebrow">✿ Twitch streamer ({followerLabel}) • content creator ✿</p>
+          <p className="eyebrow">✿ Twitch streamer ({followerLabel}) • content creator for <a href="https://www.aftermathesports.com/">AfterMath Esports</a> ✿</p>
           <h1>Hi, I’m Julie!</h1>
           <p className="intro">
             I’m a variety streamer on Twitch (and YouTube!) who loves Just Chatting, playing games,
@@ -141,7 +141,7 @@ function HomePage() {
       {/* ------------------------------------------- */}
 
       <section className="support-section" id="support" style={{ marginTop: '24px' }}>
-        <h2>Ways to $$$upport me :DD</h2>
+        <h2>Ways to support me ($$$) :DD</h2>
         <div className="support-links cta-row" aria-label="Support links">
           <a className="btn btn-secondary" href="https://www.twitch.tv/mysticjulie/subscribe" target="_blank" rel="noreferrer">
             <FaTwitch />
