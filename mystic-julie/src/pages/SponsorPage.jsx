@@ -29,6 +29,7 @@ function SponsorPage() {
           />
         </div>
       </section>
+      
       <section className="panel sponsor-panel sponsor-panel-grid">
         <div className="sponsor-panel-copy">
           <h2>Aftermath Esports</h2>

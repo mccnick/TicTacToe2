@@ -141,7 +141,7 @@ function HomePage() {
       {/* ------------------------------------------- */}
 
       <section className="support-section" id="support" style={{ marginTop: '24px' }}>
-        <h2>Ways to support me ($$$) :DD</h2>
+        <h2>Ways to support me :DD</h2>
         <div className="support-links cta-row" aria-label="Support links">
           <a className="btn btn-secondary" href="https://www.twitch.tv/mysticjulie/subscribe" target="_blank" rel="noreferrer">
             <FaTwitch />

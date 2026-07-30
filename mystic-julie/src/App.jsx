@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
+import MerchPage from './pages/MerchPage'
 import SponsorPage from './pages/SponsorPage'
 import ConnectPage from './pages/ConnectPage'
 import ContentPage from './pages/ContentPage'
@@ -28,6 +29,7 @@ function App() {
         <div className="nav-links">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/content">Content</NavLink>
+          <NavLink to="/merch">Merch</NavLink>
           <NavLink to="/sponsor">Sponsors</NavLink>
           <NavLink to="/connect">Contact Me!</NavLink>
           <button
@@ -46,6 +48,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/content" element={<ContentPage />} />
+        <Route path="/merch" element={<MerchPage />} />
         <Route path="/sponsor" element={<SponsorPage />} />
         <Route path="/connect" element={<ConnectPage />} />
       </Routes>
